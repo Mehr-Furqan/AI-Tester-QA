@@ -1,0 +1,86 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "QA Agent: Run (interactive)",
+      "type": "shell",
+      "command": "node index.js",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "clear": true,
+        "echo": false
+      },
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "QA Agent: Test this URL...",
+      "type": "shell",
+      "command": "node index.js --url ${input:targetUrl}",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "focus": true,
+        "clear": true
+      },
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "QA Agent: Check Ollama status",
+      "type": "shell",
+      "command": "npm run check",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "QA Agent: Open latest session report",
+      "type": "shell",
+      "command": "ls -t output/sessions/*.json | head -1 | xargs open",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "QA Agent: Open latest video",
+      "type": "shell",
+      "command": "ls -t output/videos/*.mp4 | head -1 | xargs open",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "targetUrl",
+      "description": "URL to test",
+      "default": "https://",
+      "type": "promptString"
+    }
+  ]
+}

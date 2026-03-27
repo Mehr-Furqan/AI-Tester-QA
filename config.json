@@ -1,0 +1,9 @@
+{
+  "model": "qwen2.5:7b",
+  "defaultUrl": "",
+  "defaultGoal": "Explore the app thoroughly as a new user. Test all main features, navigation, forms, and edge cases. Report any bugs found.",
+  "maxSteps": 50,
+  "stepDelayMs": 1200,
+  "viewport": { "width": 1280, "height": 800 },
+  "keepSessionDays": 7
+}

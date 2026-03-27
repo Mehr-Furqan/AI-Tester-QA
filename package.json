@@ -1,0 +1,46 @@
+{
+  "name": "qa-agent",
+  "version": "1.0.0",
+  "description": "Local AI-powered QA testing agent using Ollama and Playwright for autonomous web application testing",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "qa-agent": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mehr-Furqan/qa-agent.git"
+  },
+  "homepage": "https://github.com/Mehr-Furqan/qa-agent#readme",
+  "bugs": {
+    "url": "https://github.com/Mehr-Furqan/qa-agent/issues"
+  },
+  "keywords": [
+    "qa",
+    "testing",
+    "automation",
+    "ai",
+    "ollama",
+    "playwright",
+    "browser",
+    "testing-framework",
+    "llm"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test:url": "node index.js --url",
+    "check": "node -e \"import('./ollama.js').then(m => m.isRunning()).then(ok => console.log(ok ? '✓ Ollama running' : '✗ Ollama not running'))\""
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.23",
+    "ora": "^8.0.1",
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
