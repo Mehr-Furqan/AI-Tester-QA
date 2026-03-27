@@ -13,14 +13,14 @@ Thank you for your interest in contributing to the QA Agent project. This is a q
 
 ### 2. **Set Up Locally**
 ```bash
-git clone https://github.com/yourusername/qa-agent.git
-cd qa-agent
+git clone https://github.com/Mehr-Furqan/AI-Tester-QA.git
+cd AI-Tester-QA
 npm install
 npm run check  # Verify Ollama is running
 ```
 
 ### 3. **Find Something to Work On**
-- Check [Issues](https://github.com/yourusername/qa-agent/issues) marked:
+- Check [Issues](https://github.com/Mehr-Furqan/AI-Tester-QA/issues) marked:
   - `good first issue` — Perfect for newcomers
   - `help wanted` — Need community assistance
   - `docs` — Documentation improvements
@@ -53,14 +53,14 @@ npm run check  # Verify Ollama is running
 ## 🛠️ Common Tasks
 
 ### Report a Bug
-Open an [issue](https://github.com/yourusername/qa-agent/issues/new?template=bug_report.md) with:
+Open an [issue](https://github.com/Mehr-Furqan/AI-Tester-QA/issues/new?template=bug_report.md) with:
 - Clear title
 - Steps to reproduce
 - Expected vs actual behavior
 - Your environment (Node version, OS, model)
 
 ### Suggest a Feature
-Open an [issue](https://github.com/yourusername/qa-agent/issues/new?template=feature_request.md) with:
+Open an [issue](https://github.com/Mehr-Furqan/AI-Tester-QA/issues/new?template=feature_request.md) with:
 - Use case / problem it solves
 - Proposed solution
 - Any alternatives considered
@@ -69,7 +69,7 @@ Open an [issue](https://github.com/yourusername/qa-agent/issues/new?template=fea
 1. Create a branch: `git checkout -b fix/bug-name`
 2. Make changes following [code standards](DEVELOPMENT.md)
 3. Test thoroughly
-4. Submit a [Pull Request](https://github.com/yourusername/qa-agent/compare)
+4. Submit a [Pull Request](https://github.com/Mehr-Furqan/AI-Tester-QA/compare)
 
 ### Improve Documentation
 1. Edit README.md, CONTRIBUTING.md, or DEVELOPMENT.md
@@ -159,8 +159,8 @@ Contributors are recognized through:
 
 ## 📞 Contacts
 
-- Questions? Open a [discussion](https://github.com/yourusername/qa-agent/discussions)
-- Bug found? Report an [issue](https://github.com/yourusername/qa-agent/issues)
+- Questions? Open a [discussion](https://github.com/Mehr-Furqan/AI-Tester-QA/discussions)
+- Bug found? Report an [issue](https://github.com/Mehr-Furqan/AI-Tester-QA/issues)
 - Security issue? See [SECURITY.md](SECURITY.md)
 
 ---

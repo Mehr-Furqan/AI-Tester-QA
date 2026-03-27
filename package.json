@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mehr-Furqan/qa-agent.git"
+    "url": "https://github.com/Mehr-Furqan/AI-Tester-QA.git"
   },
-  "homepage": "https://github.com/Mehr-Furqan/qa-agent#readme",
+  "homepage": "https://github.com/Mehr-Furqan/AI-Tester-QA#readme",
   "bugs": {
-    "url": "https://github.com/Mehr-Furqan/qa-agent/issues"
+    "url": "https://github.com/Mehr-Furqan/AI-Tester-QA/issues"
   },
   "keywords": [
     "qa",

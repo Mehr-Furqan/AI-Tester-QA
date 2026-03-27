@@ -7,8 +7,8 @@ Detailed development documentation for QA Agent contributors.
 ### Step 1: Clone and Install
 
 ```bash
-git clone https://github.com/yourusername/qa-agent.git
-cd qa-agent
+git clone https://github.com/Mehr-Furqan/AI-Tester-QA.git
+cd AI-Tester-QA
 npm install
 ```
 

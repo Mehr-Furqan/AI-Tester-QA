@@ -67,7 +67,7 @@ This would help catch responsive design bugs.
 
 #### Prerequisites
 - Fork the repository
-- Clone your fork: `git clone https://github.com/yourname/qa-agent.git`
+- Clone your fork: `git clone https://github.com/YOUR-USERNAME/AI-Tester-QA.git`
 - Create a feature branch: `git checkout -b feature/your-feature-name`
 
 #### Development Setup

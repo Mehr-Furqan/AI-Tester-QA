@@ -24,8 +24,8 @@ A local AI-powered QA testing agent that autonomously explores and tests web app
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qa-agent.git
-cd qa-agent
+git clone https://github.com/Mehr-Furqan/AI-Tester-QA.git
+cd AI-Tester-QA
 
 # Install dependencies
 npm install
